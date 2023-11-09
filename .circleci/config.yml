@@ -13,3 +13,4 @@ workflows:
             - secops-oidc
           git-base-revision: <<#pipeline.git.base_revision>><<pipeline.git.base_revision>><</pipeline.git.base_revision >>
           git-revision: << pipeline.git.revision >>
+          
